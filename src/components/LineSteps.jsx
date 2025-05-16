@@ -7,16 +7,16 @@ import { linebackground } from '../assets/images/image'
 const LineSteps = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 relative">
-    {/* Wavy Line Image - Visible only on md, lg, and xl screens */}
+    
     <div className="hidden lg:block absolute top-0 left-0 right-0 w-full h-full pointer-events-none">
       <img 
         src={linebackground}
         alt="Wavy line connecting steps" 
-        className="w-full h-full object-cover translate-y-7" 
+        className="w-full h-full object-contain translate-y-7"
       />
     </div>
 
-    {/* Step 1 - Top Left */}
+  
     <div className="flex flex-col items-center text-center md:self-start  md:pt-0">
       <p className="text-sm font-bold Montserrat bg-[#06110C0D] p-[0.2rem] rounded-xl px-2 mb-2">STEP - 01</p>
       <h3 className="text-[1.25rem] font-bold mb-3 OpenSans">Sign Up & Create a Profile</h3>

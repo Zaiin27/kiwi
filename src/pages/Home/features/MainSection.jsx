@@ -15,7 +15,7 @@ const MainSection = () => {
         className="relative flex flex-col items-center justify-center text-center px-4 py-6 sm:py-8 md:pt-16 md:py-6"
       >
         <p className="text-black pt-5 text-sm OpenSans font-normal mb-3">
-          <span className="h-[0.3rem] rounded-xl w-6 bg-black inline-block mb-[0.6rem] mr-2"></span>Best Jobs Place
+        <span className="h-[0.3125rem] rounded-[0.46875rem] w-[2rem] bg-black inline-block mb-2 mr-1"></span>Best Jobs Place
         </p>
         <h1 className="text-black Montserrat text-3xl md:text-[3] lg:text-[3.6rem] font-bold mb-4">
             Helping Teens to<br />

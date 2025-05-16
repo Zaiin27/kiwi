@@ -11,7 +11,6 @@ const Card = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % cardData.length);
   };
 
-  // Calculate the indices of the three cards to display (with wrapping for infinite loop)
   const indices = [
     currentIndex,
     (currentIndex + 1) % cardData.length,
@@ -43,7 +42,7 @@ const Card = () => {
                 />
               </div>
               <h3 className="text-[1.375rem] Montserrat font-bold mb-2">{card.title}</h3>
-              <p className="text-[#0B1411B2] OpenSans text-sm">{card.description}</p>
+              <p className="text-[#0B1411B2] OpenSans text-[1rem]">{card.description}</p>
             </div>
           );
         })}

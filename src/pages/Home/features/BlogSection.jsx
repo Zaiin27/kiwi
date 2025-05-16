@@ -8,11 +8,11 @@ const BlogSection = () => {
     <div className="bg-[#FFEB9A] p-6 md:p-10">
       <div className="mb-2">
         <div className="flex items-center gap-2">
-          <span className="text-sm font-normal OpenSans"><span className="h-[0.16rem] w-6 bg-black inline-block mb-2 mr-1"></span> Work Process</span>
+          <span className="text-sm font-normal OpenSans"><span className="h-[0.3125rem] rounded-[0.46875rem] w-[2rem] bg-black inline-block mb-2 mr-1"></span> Work Process</span>
         </div>
       </div>
 
-      {/* Heading and paragraph section */}
+    
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10">
         <h2 className="text-3xl md:text-4xl font-semibold Montserrat">{blogData.sectionTitle}</h2>
         <p className="lg:max-w-[40rem] md:max-w-[20rem] OpenSans text-gray-700 mt-4 md:mt-0">
@@ -21,7 +21,8 @@ const BlogSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-        {/* Main featured article (spans 3 columns on md screens) */}
+       
+       
         <div className="md:col-span-3 bg-white rounded-lg overflow-hidden shadow-sm">
           <div className="h-64 md:h-96 flex items-center justify-center bg-gray-100">
             <div className="w-12 h-12 border border-gray-300 rounded-md flex items-center justify-center">
@@ -73,11 +74,11 @@ const BlogSection = () => {
           </div>
         </div>
 
-        {/* Right side articles (2 columns on md screens, stacked vertically) */}
-        <div className="md:col-span-2 grid grid-cols-1 gap-8">
+      
+       <div className="md:col-span-2 grid grid-cols-1 gap-8">
           {blogData.articles.map((article, index) => (
             <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm flex">
-              {/* Image section (40%) */}
+           
               <div className="w-[40%] flex items-center justify-center bg-gray-100">
                 <div className="w-full h-24 md:h-28 flex items-center justify-center">
                   <div className="w-10 h-10 border border-gray-300 rounded-md flex items-center justify-center">
@@ -98,7 +99,7 @@ const BlogSection = () => {
                   </div>
                 </div>
               </div>
-              {/* Text section (60%) */}
+
               <div className="w-[60%] p-4 flex flex-col justify-center">
                 <h3 className="md:text-[0.8rem] lg:text-[1.0506rem] text-[0.8rem] font-semibold inter text-gray-700 mb-2">
                   {article.title}

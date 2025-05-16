@@ -12,8 +12,6 @@ const KiwiRoutes = () => {
                     path: "/",
                     element: <Home />,
                 },  
-              
-               
             ],
         },
      

@@ -9,7 +9,7 @@ const FAQSection = () => {
 
   return (
     <div className="flex flex-col md:flex-row bg-[#FFEB9A] p-4 sm:p-6 md:p-10 min-h-screen items-center justify-center">
-      {/* Image Section */}
+     
       <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-6 mt-5 md:mb-0 order-1 md:order-none">
         <img
           src={gardening}
@@ -18,10 +18,10 @@ const FAQSection = () => {
         />
       </div>
 
-      {/* FAQ Section */}
+  
       <div className="w-full md:w-1/2 md:pl-10">
         <div className="text-sm font-normal OpenSans text-[#06110C] mb-2">
-          <span className="h-[0.3rem] rounded-2xl w-6 bg-black inline-block mb-2 mr-1"></span>User Queries
+        <span className="h-[0.3125rem] rounded-[0.46875rem] w-[2rem] bg-black inline-block mb-2 mr-1"></span>User Queries
         </div>
         <h2 className="text-2xl sm:text-3xl max-w-sm font-semibold mb-6 Montserrat">Frequently Asked Questions</h2>
         <div className="space-y-4">

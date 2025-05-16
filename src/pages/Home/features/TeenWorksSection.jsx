@@ -25,7 +25,7 @@ const TeenWorksSection = () => {
 
 
       <div className="flex items-center">
-        <button className="border-2 cursor-pointer OpenSans border-[#FFEA99] hover:text-black text-[#FFEA99] font-semibold py-2 px-6 md:py-[0.6rem] md:px-10 rounded-full w-full sm:w-auto">
+        <button className="border-2 cursor-pointer OpenSans border-[#FFEA99] hover:text-black hover:bg-[#FFEA99] text-[#FFEA99] font-semibold py-2 px-6 md:py-[0.6rem] md:px-10 rounded-full w-full sm:w-auto">
           Post a job
         </button>
       </div>

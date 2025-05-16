@@ -9,7 +9,7 @@ const SafetySection = () => {
       
         <div className="lg:w-1/3 flex flex-col justify-center space-y-4 sm:space-y-6 md:hidden lg:block">
           <div className="flex items-center mb-3 sm:mb-4">
-            <p className="text-xs sm:text-sm font-normal  text-[#06110C] OpenSans">
+            <p className="text-[1rem]  font-normal  text-[#06110C] OpenSans">
             <span className="h-[0.3125rem] rounded-[0.46875rem] w-[2rem] bg-black inline-block mb-2 mr-1"></span>
               Safety + Trust Assurance
             </p>
@@ -28,7 +28,7 @@ const SafetySection = () => {
             </div>
             <div>
               <h3 className="text-[1.1rem] font-semibold text-gray-900 font-['Montserrat'] ">Stripe ID Verification</h3>
-              <p className="text-[#06110CB2] OpenSans text-[1rem] max-w-[18rem]">
+              <p className="text-[#06110CB2] OpenSans text-[1.03rem] max-w-[18rem]">
                 All users go through secure ID checks for extra peace of mind.
               </p>
             </div>

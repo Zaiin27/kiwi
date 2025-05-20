@@ -8,7 +8,7 @@ const MainSection = () => {
       <img 
         src={background} 
         alt="background" 
-        className="absolute top-0 left-0 w-full h-[60%] md:h-[60%] lg:h-[90%] lg:-mt-[5rem] object-cover -z-1"
+        className="absolute top-0 left-0 w-full h-[60%] md:h-[60%] lg:h-[93%] lg:-mt-[7rem] object-cover -z-1"
       />
       <section
         id="features"
@@ -22,7 +22,7 @@ const MainSection = () => {
             <span className="inline-block text-[90%] md:ml-3 md:text-[3.6rem]">Find Jobs</span>
           </h1>
         <p className="text-[#06110CB2] OpenSans font-normal text-sm md:pt-[0.9rem] mb-5 max-w-xl mx-auto">
-          Each month, more than 3 million job seekers turn to website in their search for work, making over 1400 applications every single day
+          Each month, more than 3 million job seekers turn to website in their search for work, making over 140,000 applications every single day
         </p>
         <div className="flex gap-[0.5rem] md:pt-1 mb-12">
           <button className="bg-black text-[#FFEB9A] px-4 sm:px-6 py-2 rounded-full hover:bg-gray-800 transition-colors cursor-pointer OpenSans font-semibold">

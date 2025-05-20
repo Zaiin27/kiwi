@@ -15,7 +15,7 @@ const WhyJoinKiwi = () => {
       ></div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 z-0 max-w-7xl mx-auto bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
+      <div className="absolute inset-0 z-0 max-w-8xl mx-auto bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-3 sm:px-5 lg:px-6 flex flex-col items-center">

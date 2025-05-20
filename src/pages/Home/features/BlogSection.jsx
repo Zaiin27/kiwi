@@ -1,6 +1,3 @@
-
-
-
 import blogData from '../../../utils/data';
 
 const BlogSection = () => {

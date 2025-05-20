@@ -101,7 +101,7 @@ const BlogSection = () => {
                 <h3 className="md:text-[0.8rem] lg:text-[1.0506rem] text-[0.8rem] font-semibold inter text-gray-700 mb-2">
                   {article.title}
                 </h3>
-                <div className="flex items-center justify-between mt-2">
+                <div className="flex items-center gap-2 mt-2">
                   <div className="flex items-center gap-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,8 @@ const BlogSection = () => {
                         d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                       />
                     </svg>
-                    <span className="text-xs text-gray-500 inter font-normal">{article.author}</span>
+                    <span className="text-xs text-gray-500 inter font-normal">{article.author} 
+                      <span className='w-2 text-gray-400 pl-2'>—</span></span>
                   </div>
                   <span className="text-xs text-gray-500 inter font-normal">{article.date}</span>
                 </div>
